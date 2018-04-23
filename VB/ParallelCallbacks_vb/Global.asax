@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.vb" Inherits="ParallelCallbacks_vb.MvcApplication" Language="VB" %>

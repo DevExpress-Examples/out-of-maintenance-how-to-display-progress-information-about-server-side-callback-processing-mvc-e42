@@ -1,0 +1,15 @@
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.DevExpress().Button(settings => {
+    settings.Name = "btnStart";
+    settings.Text = "Start";
+    settings.UseSubmitBehavior = false;
+    settings.ClientSideEvents.Click = string.Format("function(s, e) {{ OnButtonClick(s, e, '{0}', '{1}'); }}", Url.Action("Start", "Home", null), Url.Action("Progress", "Home", null));
+}).GetHtml()
+@Html.DevExpress().ProgressBar(settings => {
+    settings.Name = "myProgressBar";
+    settings.Width = System.Web.UI.WebControls.Unit.Pixel(200);
+    settings.ClientVisible = false;
+}).GetHtml()
