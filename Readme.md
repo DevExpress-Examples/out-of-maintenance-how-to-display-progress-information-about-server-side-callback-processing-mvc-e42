@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/ParallelCallbacks/Controllers/HomeController.cs)
+* [JSCustom.js](./CS/ParallelCallbacks/Scripts/JSCustom.js)
+* [Index.cshtml](./CS/ParallelCallbacks/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # How to display progress information about server-side callback processing (MVC)
 
 
